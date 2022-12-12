@@ -31,13 +31,13 @@ npm i -g getcdn
 getcdn .help
 
 # download the latest version
-getcdn jsonkey
+getcdn userkey
 
 # Specify the storage directory
-getcdn .dir=mycdn jsonkey
+getcdn .dir=mycdn userkey
 
 # Download the specified version
-getcdn jsonkey@0.0.2
+getcdn userkey@1.0.3
 
 # Specify namespace and version
 getcdn @wll8/express-ws@1.0.3
